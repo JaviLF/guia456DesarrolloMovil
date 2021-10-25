@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Negocios</string>
+    <string name="aplication_text">Mi aplicacion de negocios</string>
+    <string name="image_description">Imagen de persona</string>
+    <string name="selected_button_text">Boton seleccionado:</string>
+    <string name="selected_button_name">Ninguno</string>
+    <string name="service_button">SERVICIOS</string>
+    <string name="portfolio_button">PORTAFOLIO</string>
+    <string name="about_button">ACERCA DE</string>
+    <string name="contact_button">CONTACTO</string>
+    <string name="social_button">REDES SOCIALES</string>
+
+
+    <string name="incorrectos">Incorrectos</string>
+    <string name="correctos">Correctos</string>
+    <string name="impar_btn">IMPAR</string>
+    <string name="par_btn">PAR</string>
+</resources>

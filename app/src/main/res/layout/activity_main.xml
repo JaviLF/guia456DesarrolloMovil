@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/aplication_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_description"
+        app:srcCompat="@drawable/icons8_person_80" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/selected_button_text" />
+
+    <TextView
+        android:id="@+id/button_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/selected_button_name" />
+
+    <Button
+        android:id="@+id/service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="selectedButton"
+        android:paddingTop="4dp"
+        android:text="@string/service_button" />
+
+    <Button
+        android:id="@+id/portfolio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectedButton"
+        android:text="@string/portfolio_button" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectedButton"
+        android:text="@string/about_button" />
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectedButton"
+        android:text="@string/contact_button" />
+
+    <Button
+        android:id="@+id/social_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectedButton"
+        android:text="@string/social_button" />
+
+</LinearLayout>
